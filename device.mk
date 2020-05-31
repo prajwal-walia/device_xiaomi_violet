@@ -29,39 +29,12 @@ PRODUCT_PACKAGES += \
 
 # Camera
 PRODUCT_PACKAGES += \
-<<<<<<< HEAD
     Snap
-=======
-    android.frameworks.displayservice@1.0 \
-    android.hardware.camera.provider@2.4-impl \
-    android.hardware.camera.provider@2.4-service_64 \
-    vendor.qti.hardware.camera.device@1.0.vendor
 
 # Charging
 PRODUCT_PACKAGES += \
     charger_res_images \
     product_charger_res_images
-
-# Context Hub
-PRODUCT_PACKAGES += \
-    android.hardware.contexthub@1.0-impl.generic \
-    android.hardware.contexthub@1.0-service
-
-# Codec2 modules
-PRODUCT_PACKAGES += \
-    com.android.media.swcodec \
-    libsfplugin_ccodec
-
-# CNE
-PRODUCT_PACKAGES += \
-    cneapiclient \
-    com.quicinc.cne \
-    services-ext
-
-# Device-specific settings
-PRODUCT_PACKAGES += \
-    XiaomiParts
->>>>>>> 7c29b0d... violet: Use Pixel charger animation
 
 # Display
 PRODUCT_PACKAGES += \
